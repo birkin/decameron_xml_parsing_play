@@ -5,7 +5,7 @@ Xml parsing play using BeautifulSoup.
 Usage:
 - create a directory 'decameron_xml_parsing_stuff'
 - cd into that and run $ python3 -m venv ./env_decameron
-- run git clone
+- run git clone https://github.com/birkin/decameron_xml_parsing_play.git
 '''
 
 import logging, os, pprint
