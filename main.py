@@ -2,10 +2,18 @@
 Xml parsing play using BeautifulSoup.
 - BeautifulSoup documentation: <https://www.crummy.com/software/BeautifulSoup/bs4/doc/>
 
-Usage:
+Setup:
 - create a directory 'decameron_xml_parsing_stuff'
 - cd into that and run $ python3 -m venv ./env_decameron
-- run git clone https://github.com/birkin/decameron_xml_parsing_play.git
+- run $ git clone https://github.com/birkin/decameron_xml_parsing_play.git
+- run $ source ./env_decameron/bin/activate
+- run $ pip install pip --upgrade
+- run $ pip install -r ./decameron_xml_parsing_play/requirements.pip
+
+Usage:
+- cd into directory 'decameron_xml_parsing_play'
+- run $ source ../env_decameron/bin/activate
+- run $ python3 ./main.py
 '''
 
 import logging, os, pprint
